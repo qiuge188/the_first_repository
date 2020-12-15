@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     Thread thread;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        SimpleDateFormat formatter    =   new SimpleDateFormat("yyyy年MM月dd日    HH:mm:ss     ");
+        SimpleDateFormat formatter    =   new SimpleDateFormat("yyyy  年   MM月dd日    HH:mm:ss     ");
         Date    curDate    =   new Date(System.currentTimeMillis());
         String    str    =    formatter.format(curDate);
         Log.d("activitylife", "onCreate called   . 时间: "+str);
