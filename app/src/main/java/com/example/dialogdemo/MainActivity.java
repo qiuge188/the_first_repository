@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat formatter    =   new SimpleDateFormat("yyyy123年   MM月dd日    HH:mm:ss     ");
         Date    curDate    =   new Date(System.currentTimeMillis());
         String    str    =    formatter.format(curDate);
-        Log.d("activitylife ds", "23132aonCreate called   . 时间: "+str);
+        Log.d("activitylife ds", "23132adsfonCreate called   . 时间: "+str);
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
