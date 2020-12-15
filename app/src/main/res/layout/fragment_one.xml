@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--<ImageView
+        android:id="@+id/imt_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pic1"></ImageView>-->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="TextView1(这是一个文本框)"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#EA5246"
+        android:background="#8fffad"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView2(这是一个带阴影的文本框)"
+        android:layout_below="@id/textView1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#4A4AFF"
+        android:shadowColor="#F9F900"
+        android:shadowRadius="3.0"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        />
+    <!--   <RoundImageView
+           android:id="@+id/img_round"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_margin="5px"/>-->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_below="@id/textView2"
+        android:text="TextView3(这是一个带边框的文本框)"
+        android:gravity="center"
+        android:background="@drawable/textview_border"
+        android:color="#000000"/>
+
+      <Button
+          android:id="@+id/btn_res"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:text="前往注册"
+          android:layout_below="@id/textView3"
+          android:layout_centerHorizontal="true"/>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text="Image View"
+           android:id="@+id/btn_iv"
+           android:layout_below="@id/btn_res"
+           android:layout_marginTop="10dp"/>
+
+       <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Button Demo"
+        android:id="@+id/btn_show"
+        android:layout_below="@id/btn_iv"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Progress Demo"
+        android:id="@+id/btn_progress_bar"
+        android:layout_below="@id/btn_show"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dialog1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+</RelativeLayout>
